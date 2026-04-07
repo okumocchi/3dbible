@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Places_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b905fd3e5db6f47a99ba48daec70c805, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14645452800
+    m_Localized: Jerusalem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47629459456
+    m_Localized: Caesarea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80705740800
+    m_Localized: Antioch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171055243264
+    m_Localized: Damascus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178897583857664
+    m_Localized: Salamis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178910280015872
+    m_Localized: Phaphos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206786849136640
+    m_Localized: Alexandria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206784391274496
+    m_Localized: Crene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206718607810560
+    m_Localized: Gortina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206717773144064
+    m_Localized: Corinth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206717001392128
+    m_Localized: Cenchrea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206640874774528
+    m_Localized: Athens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206640174325760
+    m_Localized: Thessalonica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206639410962432
+    m_Localized: Bellaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162736701440
+    m_Localized: Apronia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162027864064
+    m_Localized: Ampipolis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206161256112128
+    m_Localized: Philippi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206160484360192
+    m_Localized: Neapolis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206159712608256
+    m_Localized: Troas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206158945050624
+    m_Localized: Thyatira
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206158273961984
+    m_Localized: Ephesus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206157477044224
+    m_Localized: Attalia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206156713680896
+    m_Localized: Perge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206155937734656
+    m_Localized: Lystra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206155098873856
+    m_Localized: Iconium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206154339704832
+    m_Localized: Derbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205660070338560
+    m_Localized: Tarso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3995783576674304
+    m_Localized: Rome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13659179003666432
+    m_Localized: Seleucia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094170933288960
+    m_Localized: Assos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094174989180928
+    m_Localized: Mitylene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094175983230976
+    m_Localized: Miletus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094176805314560
+    m_Localized: Patara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28983004519981056
+    m_Localized: Ptlemais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28983079551885312
+    m_Localized: Tyre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961257823723520
+    m_Localized: 'Rameses
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961427357491200
+    m_Localized: Elim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961373460684800
+    m_Localized: Marah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961351163764736
+    m_Localized: Etham
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961313352114176
+    m_Localized: Sukkoth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961519984500736
+    m_Localized: Pi Hahiroth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961583666618368
+    m_Localized: Rephidim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43132443945852928
+    m_Localized: Kadesh Barnea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43132444688244736
+    m_Localized: Jericho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46354604164636672
+    m_Localized: 'Kibroth
+
+      Hattaavah'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46354607654297600
+    m_Localized: Hazeroth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372519505027072
+    m_Localized: Lebo Hamath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372517403680768
+    m_Localized: Hebron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372520939479040
+    m_Localized: Hormah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55072150774603776
+    m_Localized: Ur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55072923575115776
+    m_Localized: Harran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55075124812963840
+    m_Localized: Shechem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079710495858688
+    m_Localized: 'Bethel
+
+      (Luz)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079716703428608
+    m_Localized: Ai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079774169587712
+    m_Localized: Sodom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079833376382976
+    m_Localized: Gomorrah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079856587661312
+    m_Localized: Mamre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079941522317312
+    m_Localized: Hebron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55279591210606592
+    m_Localized: Salem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55292307434364928
+    m_Localized: Zoar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55293675549220864
+    m_Localized: Gerar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55294477424648192
+    m_Localized: Beersheba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55297689804333056
+    m_Localized: 'Kiriath Arba
+
+      (Hebron)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55304042031603712
+    m_Localized: Mahanaim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55412578770214912
+    m_Localized: Peniel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55413367731380224
+    m_Localized: Bethlehem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55415410944630784
+    m_Localized: 'Ephrath
+
+      (Bethlehem)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55416998111207424
+    m_Localized: Dothan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55417771725414400
+    m_Localized: Timnah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55793642915225600
+    m_Localized: Nazareth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55794077801635840
+    m_Localized: Capernaum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55796966901145600
+    m_Localized: Bethsaida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55797634567233536
+    m_Localized: Sidon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55801574969040896
+    m_Localized: Gadara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55801625166471168
+    m_Localized: Chorazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55802523091460096
+    m_Localized: Caesarea Philippi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59789110984826880
+    m_Localized: Shittim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56522374781067264
+    m_Localized: Bethphage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56522375473127424
+    m_Localized: Bethany
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56524205032726528
+    m_Localized: Nain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56525192980062208
+    m_Localized: Magdalene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56527603371073536
+    m_Localized: Cana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56528914837659648
+    m_Localized: Sychar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56529908258562048
+    m_Localized: Tiberias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57206178122293248
+    m_Localized: Azotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57221010921873408
+    m_Localized: Joppa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57222506199638016
+    m_Localized: Lydda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57225056571351040
+    m_Localized: Gaza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57227551687303168
+    m_Localized: Antipatris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57231697102495744
+    m_Localized: Myra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57231745957748736
+    m_Localized: Cnidus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57233671420108800
+    m_Localized: Lasea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57236105915785216
+    m_Localized: Phoenix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57243581356695552
+    m_Localized: Syracuse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57244279695728640
+    m_Localized: Puteoli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57244420968275968
+    m_Localized: Rhegium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57246266826940416
+    m_Localized: Forum of Appius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57246378781302784
+    m_Localized: Three Taverns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58540306964930560
+    m_Localized: Emmaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58639377226522624
+    m_Localized: Dan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59789383404871680
+    m_Localized: Gilgal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803592016519168
+    m_Localized: Beth Shemesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803622353920000
+    m_Localized: En Gedi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803499460812800
+    m_Localized: Ashdod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59790116212695040
+    m_Localized: Ashkelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59806029301407744
+    m_Localized: Dor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807449450799104
+    m_Localized: Kedesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807467834433536
+    m_Localized: Hazor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807941170028544
+    m_Localized: Golan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59808113698529280
+    m_Localized: Megiddo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59808131318800384
+    m_Localized: Jezreel
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

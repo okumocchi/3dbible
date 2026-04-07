@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Natures Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Natures
+  m_TableCollectionNameGuidString: db19f32bd24734a88bda41ef7404b607
+  m_Entries:
+  - m_Id: 10191101952
+    m_Key: 'WILDERNESS_OF_ETHAM
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261631238144
+    m_Key: 'WILDERNESS_OF_SIN
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280530771968
+    m_Key: WILDERNESS_OF_SINAI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365570285568
+    m_Key: 'WILDERNESS_OF_ZIN
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1976447262720
+    m_Key: MT_SINAI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55323535597568
+    m_Key: DESERT_OF_PARAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71920719486976
+    m_Key: NEGEV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71951623118848
+    m_Key: 'REHOB
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 823679096184832
+    m_Key: MT_HOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 823682288050176
+    m_Key: MT_NEBO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1323727269650432
+    m_Key: PLAINS_MOAB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324025610493952
+    m_Key: JORDAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324028198379520
+    m_Key: ARNON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324031063089152
+    m_Key: ZERED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1327025959723008
+    m_Key: READ_SEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1327490684411904
+    m_Key: KINNERET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1328501096439808
+    m_Key: SALT_SEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9000777296109568
+    m_Key: PADDAN_ARAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9002792281694208
+    m_Key: GILEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9119690780565504
+    m_Key: GOSHEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9129841113686016
+    m_Key: BASHAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9144013247471616
+    m_Key: GREAT_SEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9482871872937984
+    m_Key: SEA_OF_GALILEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9493381704048640
+    m_Key: SHARON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10941185001512960
+    m_Key: CAUDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10942355191357440
+    m_Key: MALTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13482167874084864
+    m_Key: 'GENNESARET
+
+'
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4956040058948812878
+  references:
+    version: 2
+    RefIds:
+    - rid: 4956040058948812878
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1744354387449

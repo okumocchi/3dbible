@@ -1,0 +1,94 @@
+{
+    "name": "Touch",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "bffabf22-b460-4cac-ac2a-5b5f963b8c46",
+            "actions": [
+                {
+                    "name": "Touch_0",
+                    "type": "Value",
+                    "id": "0fd98b1c-4727-467c-bbff-3b5bd6601ffb",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touch_1",
+                    "type": "Value",
+                    "id": "880ac416-9987-4c0d-8b5b-6c7f7ff5a681",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "7230be3e-d933-4b95-a2c3-f62caf0eff99",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MultiTap",
+                    "type": "Button",
+                    "id": "3e7d27d7-020f-4f74-b3ee-604e4ecf1fc0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d223cd96-e798-4187-9fd9-58cfc5a3a32e",
+                    "path": "<Touchscreen>/touch0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch_0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "354877f9-7c2c-4d02-81f3-2b7d18f1ea0f",
+                    "path": "<Touchscreen>/touch1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch_1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e82138d-58d8-4682-a3d6-a5f3edc663f9",
+                    "path": "<Pointer>/press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d53802e2-79f8-47ad-bf22-7318a1454b0b",
+                    "path": "<Pointer>/press",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MultiTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

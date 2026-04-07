@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Japanese (ja)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Japanese (ja)
+  m_GUID: 9a89a13cb25744f969bc433fffb3bacb
+  m_SerializeEntries:
+  - m_GUID: 5659d4c35542c443d94b9b737cdcabd0
+    m_Address: Districts_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 591def44ec8eb41cda780da1d01a4d5e
+    m_Address: Books_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6266ac8ab7628497a8ffa58bbc7fb7b8
+    m_Address: Places_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67c79cd54098e42fd82cb2650eb2f150
+    m_Address: Countries_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae0a301a02576472a91d4707b0f3de44
+    m_Address: Persons_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e960c9e48140e4548bf9a858e7c97f45
+    m_Address: Episodes_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40a3399751c14219ba68e6894e406c2
+    m_Address: Natures_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: e3eae9d3c39d94c43b3f712ec4ba5f9e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c504b8bba1aa3403495ca0c55e63d48e, type: 2}
+    - {fileID: 11400000, guid: 0b6f1f01528de493bb01e2fd7fff2cfb, type: 2}

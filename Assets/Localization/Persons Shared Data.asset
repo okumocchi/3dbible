@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Persons Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Persons
+  m_TableCollectionNameGuidString: cc8d3c28317494f23ac47417de613edf
+  m_Entries:
+  - m_Id: 21037572096
+    m_Key: PAUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1774528970612736
+    m_Key: BARNABAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1774615956283392
+    m_Key: MARK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8688497882816512
+    m_Key: SILAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11439149289562112
+    m_Key: TIMOTHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11440578960023552
+    m_Key: LUKE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11440630612877312
+    m_Key: AQUILA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11445406973026304
+    m_Key: PRISCILLA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746828652765184
+    m_Key: APOLLOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746829403545600
+    m_Key: ERASTUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746830099800064
+    m_Key: GAIUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746830800248832
+    m_Key: ARISTARCHUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746831572000768
+    m_Key: SOPATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746832268255232
+    m_Key: SECUNDUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15746833740455936
+    m_Key: TYCHICUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15747130277748736
+    m_Key: TROPHIMUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15913275655970816
+    m_Key: TITUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29654724344012800
+    m_Key: MOSES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29654739154100224
+    m_Key: AARON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29654753448288256
+    m_Key: MIRIAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29655756142796800
+    m_Key: JOSHUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29655757736632320
+    m_Key: CALEB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31891257046327296
+    m_Key: MILLIONS_OF_ISRAELITES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31891369898270720
+    m_Key: SCOUTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34058752939253760
+    m_Key: ELEAZAR
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2031887726922432757
+  references:
+    version: 2
+    RefIds:
+    - rid: 2031887726922432757
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736511201467

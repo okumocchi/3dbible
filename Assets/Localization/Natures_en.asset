@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Natures_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: db19f32bd24734a88bda41ef7404b607, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10191101952
+    m_Localized: Wilderness of Etham(Shur)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261631238144
+    m_Localized: Wilderness of Sin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280530771968
+    m_Localized: Wilderness of Sinai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365570285568
+    m_Localized: Wilderness of Zin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1976447262720
+    m_Localized: Mt. Sinai(Horeb)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55323535597568
+    m_Localized: Desert of Paran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71951623118848
+    m_Localized: Rehob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71920719486976
+    m_Localized: Negev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 823679096184832
+    m_Localized: Mt. Hor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 823682288050176
+    m_Localized: Mt. Nebo(Pisgah)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1323727269650432
+    m_Localized: Plains of Moab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324028198379520
+    m_Localized: Arnon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324025610493952
+    m_Localized: Jordan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1324031063089152
+    m_Localized: Zered Valley
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1327025959723008
+    m_Localized: Red Sea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1327490684411904
+    m_Localized: Lake Kinneret
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1328501096439808
+    m_Localized: Salt Sea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9000777296109568
+    m_Localized: Paddan Aram
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9002792281694208
+    m_Localized: Gilead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9119690780565504
+    m_Localized: Goshen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9129841113686016
+    m_Localized: Bashan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9144013247471616
+    m_Localized: Great Sea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9482871872937984
+    m_Localized: Sea of Galilee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9493381704048640
+    m_Localized: Sharon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10941185001512960
+    m_Localized: Cauda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10942355191357440
+    m_Localized: Malta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13482167874084864
+    m_Localized: Gennesaret
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

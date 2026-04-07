@@ -1,0 +1,484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Places Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Places
+  m_TableCollectionNameGuidString: b905fd3e5db6f47a99ba48daec70c805
+  m_Entries:
+  - m_Id: 14645452800
+    m_Key: JERUSALEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47629459456
+    m_Key: CAESAREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80705740800
+    m_Key: ANTIOCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171055243264
+    m_Key: DAMASCUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178897583857664
+    m_Key: SALAMIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178910280015872
+    m_Key: PHAPHOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205660070338560
+    m_Key: TARSO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206154339704832
+    m_Key: DERBE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206155098873856
+    m_Key: 'ICONIUM
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206155937734656
+    m_Key: LISTELLA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206156713680896
+    m_Key: PERGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206157477044224
+    m_Key: ATTALIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206158273961984
+    m_Key: EPHESUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206158945050624
+    m_Key: THYATIRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206159712608256
+    m_Key: TROAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206160484360192
+    m_Key: NEAPOLIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206161256112128
+    m_Key: PHILIPPI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162027864064
+    m_Key: AMPIPOLIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206162736701440
+    m_Key: APRONIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206639410962432
+    m_Key: BELLAIRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206640174325760
+    m_Key: THESSALONICA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206640874774528
+    m_Key: ATHENS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206717001392128
+    m_Key: CENCHREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206717773144064
+    m_Key: CORINTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206718607810560
+    m_Key: GORTINA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206784391274496
+    m_Key: CRENE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206786849136640
+    m_Key: ALEXANDRIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3995783576674304
+    m_Key: ROME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13659179003666432
+    m_Key: SELEUCIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094170933288960
+    m_Key: ASSOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094174989180928
+    m_Key: MITYLENE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094175983230976
+    m_Key: MILETUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26094176805314560
+    m_Key: PATARA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28983004519981056
+    m_Key: PTLEMAIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28983079551885312
+    m_Key: TYRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961257823723520
+    m_Key: RAMESES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961313352114176
+    m_Key: SUKKOTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961351163764736
+    m_Key: ETHAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961373460684800
+    m_Key: MARAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961427357491200
+    m_Key: ELIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961519984500736
+    m_Key: PIHAHIROTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42961583666618368
+    m_Key: REPHIDIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43132443945852928
+    m_Key: KADESHBARNEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43132444688244736
+    m_Key: JERICHO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46354604164636672
+    m_Key: KIBROTH_HATTAAVAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46354607654297600
+    m_Key: HAZEROTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372517403680768
+    m_Key: 'HEBRON
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372519505027072
+    m_Key: LEBO_HAMATH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46372520939479040
+    m_Key: 'HORMAH
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55072150774603776
+    m_Key: UR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55072923575115776
+    m_Key: HARRAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55075124812963840
+    m_Key: SHECHEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079710495858688
+    m_Key: BETHEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079716703428608
+    m_Key: AI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079774169587712
+    m_Key: SODOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079833376382976
+    m_Key: GOMORRAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079856587661312
+    m_Key: MAMRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55079941522317312
+    m_Key: HEBRON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55279591210606592
+    m_Key: SALEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55292307434364928
+    m_Key: ZOAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55293675549220864
+    m_Key: Gerar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55294477424648192
+    m_Key: Beersheba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55297689804333056
+    m_Key: KIRIATH_ARBA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55304042031603712
+    m_Key: MAHANAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55412578770214912
+    m_Key: PENIEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55413367731380224
+    m_Key: BETHLEHEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55415410944630784
+    m_Key: EPHRATH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55416998111207424
+    m_Key: DOTHAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55417771725414400
+    m_Key: TIMNAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55793642915225600
+    m_Key: NAZARETH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55794077801635840
+    m_Key: 'CAPERNAUM
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55796966901145600
+    m_Key: BETHSAIDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55797634567233536
+    m_Key: SIDON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55801574969040896
+    m_Key: GADARA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55801625166471168
+    m_Key: CHORAZIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55802523091460096
+    m_Key: CAESAREA_PHILIPPI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56522374781067264
+    m_Key: BETHPHAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56522375473127424
+    m_Key: BETHANY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56524205032726528
+    m_Key: NAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56525192980062208
+    m_Key: MAGDALENE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56527603371073536
+    m_Key: CANA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56528914837659648
+    m_Key: SYCHAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56529908258562048
+    m_Key: TIBERIAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57206178122293248
+    m_Key: AZOTUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57221010921873408
+    m_Key: JOPPA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57222506199638016
+    m_Key: LYDDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57225056571351040
+    m_Key: GAZA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57227551687303168
+    m_Key: ANTIPATRIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57231697102495744
+    m_Key: MYRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57231745957748736
+    m_Key: CNIDUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57233671420108800
+    m_Key: LASEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57236105915785216
+    m_Key: PHOENIX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57243581356695552
+    m_Key: SYRACUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57244279695728640
+    m_Key: PUTEOLI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57244420968275968
+    m_Key: RHEGIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57246266826940416
+    m_Key: APPIUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57246378781302784
+    m_Key: TAVERNS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58540306964930560
+    m_Key: EMMAUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58639377226522624
+    m_Key: DAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59789094908059648
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59789110984826880
+    m_Key: SHITTIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59789383404871680
+    m_Key: GILGAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59790116212695040
+    m_Key: ' ASHKELON'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803499460812800
+    m_Key: ASHDOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803592016519168
+    m_Key: BETH_SHEMESH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803622353920000
+    m_Key: EN_GEDI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59806029301407744
+    m_Key: DOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807449450799104
+    m_Key: Kedesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807467834433536
+    m_Key: Hazor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59807941170028544
+    m_Key: GOLAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59808113698529280
+    m_Key: MEGIDDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59808131318800384
+    m_Key: JAZREEL
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9198148829493854474
+  references:
+    version: 2
+    RefIds:
+    - rid: 9198148829493854474
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1733315553052

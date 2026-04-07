@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: fd64850e3227a47b396762b148cad8fa
+  m_SerializeEntries:
+  - m_GUID: 2c8b69e5b2a8e43a186a49fe10931954
+    m_Address: Assets/Localization/Districts Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 482fb586d576e454199c25aab94439f2
+    m_Address: Assets/Localization/Countries Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aa0d36708bc348118525dd8f1bf031b
+    m_Address: Assets/Localization/Books Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a2a7f892107041ef983951e3baa20e6
+    m_Address: Assets/Localization/Images Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b905fd3e5db6f47a99ba48daec70c805
+    m_Address: Assets/Localization/Places Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc8d3c28317494f23ac47417de613edf
+    m_Address: Assets/Localization/Persons Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db19f32bd24734a88bda41ef7404b607
+    m_Address: Assets/Localization/Natures Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e53e57a311a644dcab4e4c01a55779b6
+    m_Address: Assets/Localization/Episodes Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: e3eae9d3c39d94c43b3f712ec4ba5f9e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3e7a79c02c2024e528125f84042660b8, type: 2}
+    - {fileID: 11400000, guid: 0b3227c101c42416ab6adec4f185ee16, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Books Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Books
+  m_TableCollectionNameGuidString: 7aa0d36708bc348118525dd8f1bf031b
+  m_Entries:
+  - m_Id: 15937298432
+    m_Key: GENESIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279859683328
+    m_Key: EXODUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9691277477011456
+    m_Key: ACTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14479263443968000
+    m_Key: GOSPELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22809459314122752
+    m_Key: KINGS_CHRONICLES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60863016567037952
+    m_Key: JOSHUA
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9198148573712613653
+  references:
+    version: 2
+    RefIds:
+    - rid: 9198148573712613653
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1732018267004

@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Districts Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Districts
+  m_TableCollectionNameGuidString: 2c8b69e5b2a8e43a186a49fe10931954
+  m_Entries:
+  - m_Id: 212847288320
+    m_Key: PALESTINE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 725638701056
+    m_Key: CYREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783033556992
+    m_Key: CYPRUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893196149186560
+    m_Key: EGYPT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893209386409984
+    m_Key: CYRENAICA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893212041404416
+    m_Key: AFRICA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893214151139328
+    m_Key: NUMIDIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893215954690048
+    m_Key: MESOPOTAMIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893216936157184
+    m_Key: ARMENIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893217636605952
+    m_Key: ASIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893218404163584
+    m_Key: PONTUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893219175915520
+    m_Key: MACEDONIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893219943473152
+    m_Key: THRACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 893220782333952
+    m_Key: DACIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 894408412094464
+    m_Key: ILLYRIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 894409389367296
+    m_Key: GALLIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 894410433748992
+    m_Key: HISPANIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 894523050811392
+    m_Key: BRITANNIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3810253098442752
+    m_Key: ITALY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811986142912512
+    m_Key: 'ACHAIA
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3812028987727872
+    m_Key: EPIRUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3812168725159936
+    m_Key: CORSICA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3812197594554368
+    m_Key: SARDINIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3812402142371840
+    m_Key: SICILY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4510030052188160
+    m_Key: GALATIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4510094401200128
+    m_Key: ARAB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6669156500889600
+    m_Key: JUDAEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11405194121175040
+    m_Key: SARMATIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11405682392686592
+    m_Key: PARTHIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11405802622410752
+    m_Key: GERMANIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181147862654976
+    m_Key: CAPPADOCIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181149313884160
+    m_Key: PAMPHYLIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181150362460160
+    m_Key: PISIDIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181151201320960
+    m_Key: LYCIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181152040181760
+    m_Key: CHIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25906541080076288
+    m_Key: SAMOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25906546234875904
+    m_Key: KOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25906572306669568
+    m_Key: RHODES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43146681036824576
+    m_Key: REUBEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55245370618273792
+    m_Key: SIMEON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55245371234836480
+    m_Key: JUDAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55245371863982080
+    m_Key: GAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55245372702842880
+    m_Key: ASHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55245479997333504
+    m_Key: ZUBULUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55246911068692480
+    m_Key: ISSACHAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55246939908726784
+    m_Key: DAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55247015964041216
+    m_Key: NAPHTALI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55247019961212928
+    m_Key: BENJAMIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55247100282134528
+    m_Key: MANASSEH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55247100953223168
+    m_Key: EPHRAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619345370308608
+    m_Key: GALILEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619349212291072
+    m_Key: DECAPOLIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619353125576704
+    m_Key: PEREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619355294031872
+    m_Key: SAMARIA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619357949026304
+    m_Key: IDUMEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55619725927899136
+    m_Key: NABATAEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57049985001185280
+    m_Key: CRETE
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9198148829493854481
+  references:
+    version: 2
+    RefIds:
+    - rid: 9198148829493854481
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1733359674789
