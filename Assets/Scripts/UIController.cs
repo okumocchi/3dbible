@@ -542,6 +542,24 @@ public class UIController : MonoBehaviour
         {
             ApplyInertia();
         }
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+        // 開発用カメラ操作: Wキーで前進、Sキーで後退
+        if (UnityEngine.InputSystem.Keyboard.current != null)
+        {
+            float debugMoveSpeed = 100f; // 必要に応じて速度を調整してください
+            if (UnityEngine.InputSystem.Keyboard.current.wKey.isPressed)
+            {
+                mainCamera.transform.position += mainCamera.transform.forward * debugMoveSpeed * Time.deltaTime;
+                ResetInertia(); // 前進時に慣性をリセット
+            }
+            if (UnityEngine.InputSystem.Keyboard.current.sKey.isPressed)
+            {
+                mainCamera.transform.position -= mainCamera.transform.forward * debugMoveSpeed * Time.deltaTime;
+                ResetInertia(); // 後退時に慣性をリセット
+            }
+        }
+#endif
         //DeviceOrientation current = Input.deviceOrientation;
 
         // 無効な状態はスキップ
@@ -619,65 +637,6 @@ public class UIController : MonoBehaviour
                 );
                 mainCamera.transform.localEulerAngles = toCamera.localEulerAngles;
             }
-
-
-            // キー操作によるカメラの操作
-            /*
-            float moveSpeed = 120.0f;
-            float lowLimit = 12f;
-            float highLimit = 1040f;
-            var pos = mainCamera.transform.position;
-            //Wキーがおされたら
-            if (Input.GetKey(KeyCode.W) || isForwardButtonDown)
-            {
-                //followMode = false; // Auto trackingをOFF
-                //activateCameraButton(true);
-                if (followMode)
-                {
-                    followCameraHeight = Mathf.Max(10.0f, followCameraHeight - 1.0f);
-                }
-                else
-                {
-                    pos += mainCamera.transform.forward * moveSpeed * Time.deltaTime;
-                    if (pos.y < lowLimit) pos.y = lowLimit;
-                    else if (pos.y > highLimit) pos.y = highLimit;
-                    mainCamera.transform.position = pos;
-                }
-
-                //mainCamera.transform.position += mainCamera.transform.forward * moveSpeed * Time.deltaTime;
-            }
-            //Sキーがおされたら
-            if (Input.GetKey(KeyCode.S) || isBackButtonDown)
-            {
-                //followMode = false; // Auto trackingをOFF
-                //activateCameraButton(true);
-                if (followMode)
-                {
-                    followCameraHeight = Mathf.Min(100.0f, followCameraHeight + 1.0f);
-                }
-                else
-                {
-                    pos += mainCamera.transform.forward * -1.0f * moveSpeed * Time.deltaTime;
-                    if (pos.y < lowLimit) pos.y = lowLimit;
-                    else if (pos.y > highLimit) pos.y = highLimit;
-                    mainCamera.transform.position = pos;
-                }
-                //mainCamera.transform.position += mainCamera.transform.forward * -1.0f * moveSpeed * Time.deltaTime;
-            }
-
-            var p = mainCamera.transform.position;
-            float v = 3.0f;
-            p.x = p.x + (Input.GetKey(KeyCode.RightArrow) ? v : (Input.GetKey(KeyCode.LeftArrow) ? -v : 0));
-            p.z = p.z + (Input.GetKey(KeyCode.UpArrow) ? v : (Input.GetKey(KeyCode.DownArrow) ? -v : 0));
-            if (p != mainCamera.transform.position)
-            {
-                mainCamera.transform.position = p;
-                activateCameraButton(true);
-            }
-            */
-
-            // これ以降の操作はボタンやスライダー操作中は無効とする
-
         }
         //コンパスの更新
         var fw = mainCamera.transform.forward;
