@@ -63,18 +63,4 @@ public class BoatWaterMask : MonoBehaviour
         mesh.RecalculateBounds();
         return mesh;
     }
-
-#if UNITY_EDITOR
-    // エディタ上でマスク範囲を可視化する
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = new Color(0f, 0.8f, 1f, 0.4f);
-        Vector3 center = transform.position + transform.up * hullYOffset;
-        Vector3 size = new Vector3(hullSize.x, 0.02f, hullSize.y);
-        Gizmos.matrix = Matrix4x4.TRS(center, transform.rotation, Vector3.one);
-        Gizmos.DrawCube(Vector3.zero, size);
-        Gizmos.color = new Color(0f, 0.8f, 1f, 0.9f);
-        Gizmos.DrawWireCube(Vector3.zero, size);
-    }
-#endif
 }
