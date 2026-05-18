@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3231514786468840081}
   - component: {fileID: 809613130886100571}
   - component: {fileID: 6598127627910313500}
+  - component: {fileID: -2537880713814781875}
+  - component: {fileID: -6439048075667132509}
   m_Layer: 0
   m_Name: Boat_A10
   m_TagString: Untagged
@@ -62,6 +64,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,9 +87,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6598127627910313500
 BoxCollider:
@@ -108,3 +114,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6610441, y: 5.2192802, z: 8.342581}
   m_Center: {x: -0.05242139, y: 2.6085877, z: 0.48872685}
+--- !u!114 &-2537880713814781875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170002050144704398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b83ec365664c410398a33516d1b948c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VehicleController
+  crews: []
+--- !u!114 &-6439048075667132509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170002050144704398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869b517a2f87440ceb18487ffe043c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoatWaterMask
+  hullSize: {x: 3.13, y: 6}
+  hullYOffset: 0.94

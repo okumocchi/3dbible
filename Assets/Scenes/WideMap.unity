@@ -42884,7 +42884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1979189129579777332, guid: b42a23ece8cbc25438eee52b3c0862bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.85
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 1979189129579777332, guid: b42a23ece8cbc25438eee52b3c0862bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42929,6 +42929,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1170002050144704398, guid: b42a23ece8cbc25438eee52b3c0862bd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1124131085}
+    - targetCorrespondingSourceObject: {fileID: 1170002050144704398, guid: b42a23ece8cbc25438eee52b3c0862bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124131089}
   m_SourcePrefab: {fileID: 100100000, guid: b42a23ece8cbc25438eee52b3c0862bd, type: 3}
 --- !u!4 &1124131081 stripped
 Transform:
@@ -42948,6 +42951,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crews: []
+--- !u!114 &1124131089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022207233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869b517a2f87440ceb18487ffe043c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoatWaterMask
+  hullSize: {x: 2.23, y: 4.03}
+  hullYOffset: 0.58
 --- !u!1001 &1124330969
 PrefabInstance:
   m_ObjectHideFlags: 0
