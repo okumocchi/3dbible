@@ -17,6 +17,9 @@ public class BoatWaterMask : MonoBehaviour
     [Tooltip("ボートのローカル原点からマスク平面のYオフセット（水面より少し上に設定）")]
     [SerializeField] private float hullYOffset = 0.15f;
 
+    [Tooltip("ボート内側の塗りつぶし色（船底の素材に合わせて調整）")]
+    [SerializeField] private Color hullColor = new Color(0.25f, 0.18f, 0.12f, 1f);
+
     private GameObject maskObject;
 
     void Start()
@@ -42,8 +45,11 @@ public class BoatWaterMask : MonoBehaviour
         var meshFilter = maskObject.AddComponent<MeshFilter>();
         meshFilter.mesh = BuildQuadMesh(hullSize.x, hullSize.y);
 
+        var mat = new Material(shader);
+        mat.color = hullColor;
+
         var meshRenderer = maskObject.AddComponent<MeshRenderer>();
-        meshRenderer.material = new Material(shader);
+        meshRenderer.material = mat;
         meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         meshRenderer.receiveShadows = false;
     }

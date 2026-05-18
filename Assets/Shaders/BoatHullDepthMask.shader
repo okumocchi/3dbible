@@ -1,8 +1,14 @@
 Shader "Custom/BoatHullDepthMask"
 {
+    Properties
+    {
+        // ボート内側の塗りつぶし色（船底の素材に合わせて調整）
+        _Color ("Hull Interior Color", Color) = (0.25, 0.18, 0.12, 1)
+    }
+
     SubShader
     {
-        // Geometry-1 で描画することで、Transparent の水シェーダーより前に深度を書き込む
+        // Geometry-1 で不透明パスの水シェーダーより前に描画
         Tags
         {
             "RenderType" = "Opaque"
@@ -12,17 +18,21 @@ Shader "Custom/BoatHullDepthMask"
 
         Pass
         {
-            Name "DepthMask"
+            Name "BoatHullMask"
+            Tags { "LightMode" = "UniversalForward" }
 
             ZWrite On
             ZTest LEqual
-            ColorMask 0      // 色を一切書き込まない（完全に不可視）
-            Cull Back        // 上向き法線のクワッドを上方カメラから見た場合のみ有効
+            Cull Back
 
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+
+            CBUFFER_START(UnityPerMaterial)
+                half4 _Color;
+            CBUFFER_END
 
             struct Attributes
             {
@@ -47,7 +57,7 @@ Shader "Custom/BoatHullDepthMask"
 
             half4 frag(Varyings input) : SV_Target
             {
-                return 0;
+                return _Color;
             }
             ENDHLSL
         }
