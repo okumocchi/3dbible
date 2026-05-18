@@ -20,10 +20,13 @@ public class DirectionController : MonoBehaviour
         //transform.LookAt(target.transform);
          transform.forward = Camera.main.transform.forward;
          float dist = Vector3.Distance(transform.position, target.transform.position);
-         float scale = Mathf.Max(0.1f, Mathf.Min(7.0f, dist / 200.0f));
+         
+         // 一定以上、以下のサイズにならないように調整
+         //float scale = Mathf.Max(1.2f, Mathf.Min(2.0f, dist / 100.0f));
+         float scale = Mathf.Max(0.6f,dist / 200.0f);
          transform.localScale = new Vector3(scale, scale, scale); 
          //var tmp = GetComponent<TextMeshProUGUI>();
-         //tmp.fontSize = 100;
+         //tmp.fontSize = 100
 
 
     }

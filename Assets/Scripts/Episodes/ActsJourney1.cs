@@ -37,7 +37,7 @@ public class ActsJourney1 : EpisodeBase
         SetFollowTarget(barnabas.transform);//paul.transform;
 
         // 往路
-        yield return AsyncPlay(charBarnabas.Wander(15.0f)); // Antioch
+        yield return AsyncPlay(charBarnabas.Wander(4.0f)); // Antioch
 
         var cart = barnabas.GetComponent<CinemachineSplineCart>();
         var path = lv4Map.transform.Find("PlaceLabels").Find("Acts").Find("Path_Asia").gameObject.GetComponent<SplineContainer>();
@@ -101,7 +101,7 @@ public class ActsJourney1 : EpisodeBase
 
         yield return AsyncPlay(charPaul.Wander(3));
         charBarnabas.SetState(States.Stroll, true);
-        yield return WaitForAWhile(3.0f);
+        //yield return WaitForAWhile(1.0f);
     }
 
     // マルコの離脱
