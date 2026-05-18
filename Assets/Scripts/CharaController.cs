@@ -137,7 +137,7 @@ public class CharaController : MonoBehaviour
                 StandOnTheGround(); // 地面の上に立つよう位置調整
                 if (State == States.Vehicle) {
                     var pos = transform.position;
-                    pos.y += 0.3f; // 船を少し持ち上げる（水が船内に入っているように見せないため）
+                    //pos.y += 0.3f; // 船を少し持ち上げる（水が船内に入っているように見せないため）
                     Vehicle.transform.position = pos;
                     Vehicle.transform.localEulerAngles = transform.localEulerAngles;                   
                 }   
