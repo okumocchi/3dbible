@@ -1,14 +1,8 @@
-Shader "Custom/BoatHullDepthMask"
+Shader "Custom/BoatHullStencilMask"
 {
-    Properties
-    {
-        // ボート内側の塗りつぶし色（船底の素材に合わせて調整）
-        _Color ("Hull Interior Color", Color) = (0.25, 0.18, 0.12, 1)
-    }
-
     SubShader
     {
-        // Geometry-1 で不透明パスの水シェーダーより前に描画
+        // Geometry-1 で水（Transparent）より前に描画し、ステンシルを書き込む
         Tags
         {
             "RenderType" = "Opaque"
@@ -18,21 +12,25 @@ Shader "Custom/BoatHullDepthMask"
 
         Pass
         {
-            Name "BoatHullMask"
-            Tags { "LightMode" = "UniversalForward" }
+            Name "StencilWrite"
 
-            ZWrite On
-            ZTest LEqual
-            Cull Back
+            Stencil
+            {
+                Ref 1
+                Comp Always    // 常に書き込む
+                Pass Replace   // ステンシルバッファを 1 に上書き
+                Fail Keep
+                ZFail Keep
+            }
+
+            ZWrite Off      // 深度は書き込まない（ボート本体の描画を妨げない）
+            ColorMask 0     // 色も書き込まない（完全に不可視）
+            Cull Off        // 両面有効（カメラ角度を問わない）
 
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-
-            CBUFFER_START(UnityPerMaterial)
-                half4 _Color;
-            CBUFFER_END
 
             struct Attributes
             {
@@ -57,7 +55,7 @@ Shader "Custom/BoatHullDepthMask"
 
             half4 frag(Varyings input) : SV_Target
             {
-                return _Color;
+                return 0;
             }
             ENDHLSL
         }

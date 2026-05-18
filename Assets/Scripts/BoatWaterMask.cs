@@ -4,9 +4,10 @@ using UnityEditor;
 #endif
 
 /// <summary>
-/// ボートの内側に水面マスク（深度書き込み専用メッシュ）を生成するコンポーネント。
-/// 船底付近に不可視のクワッドを配置し、透明描画される水シェーダーが
-/// デプステストで失敗するようにすることでボート内側の水を非表示にする。
+/// ボートの内側にステンシルマスク用の不可視クワッドを生成するコンポーネント。
+/// Geometry-1 キューでステンシルバッファに 1 を書き込み、
+/// 水シェーダー（_StencilComp = NotEqual 1）がその領域をスキップすることで
+/// ボート内側の水を非表示にする。
 /// </summary>
 [RequireComponent(typeof(VehicleController))]
 public class BoatWaterMask : MonoBehaviour
@@ -17,26 +18,23 @@ public class BoatWaterMask : MonoBehaviour
     [Tooltip("ボートのローカル原点からマスク平面のYオフセット（水面より少し上に設定）")]
     [SerializeField] private float hullYOffset = 0.15f;
 
-    [Tooltip("ボート内側の塗りつぶし色（船底の素材に合わせて調整）")]
-    [SerializeField] private Color hullColor = new Color(0.25f, 0.18f, 0.12f, 1f);
-
     private GameObject maskObject;
 
     void Start()
     {
-        CreateDepthMask();
+        CreateStencilMask();
     }
 
-    private void CreateDepthMask()
+    private void CreateStencilMask()
     {
-        var shader = Shader.Find("Custom/BoatHullDepthMask");
+        var shader = Shader.Find("Custom/BoatHullStencilMask");
         if (shader == null)
         {
-            Debug.LogError($"[BoatWaterMask] Custom/BoatHullDepthMask シェーダーが見つかりません。Assets/Shaders/BoatHullDepthMask.shader が存在するか確認してください。", this);
+            Debug.LogError("[BoatWaterMask] Custom/BoatHullStencilMask シェーダーが見つかりません。Assets/Shaders/BoatHullDepthMask.shader が存在するか確認してください。", this);
             return;
         }
 
-        maskObject = new GameObject("_WaterDepthMask");
+        maskObject = new GameObject("_WaterStencilMask");
         maskObject.transform.SetParent(transform, worldPositionStays: false);
         maskObject.transform.localPosition = new Vector3(0f, hullYOffset, 0f);
         maskObject.transform.localEulerAngles = Vector3.zero;
@@ -45,11 +43,8 @@ public class BoatWaterMask : MonoBehaviour
         var meshFilter = maskObject.AddComponent<MeshFilter>();
         meshFilter.mesh = BuildQuadMesh(hullSize.x, hullSize.y);
 
-        var mat = new Material(shader);
-        mat.color = hullColor;
-
         var meshRenderer = maskObject.AddComponent<MeshRenderer>();
-        meshRenderer.material = mat;
+        meshRenderer.material = new Material(shader);
         meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         meshRenderer.receiveShadows = false;
     }
@@ -59,7 +54,7 @@ public class BoatWaterMask : MonoBehaviour
         float hw = width * 0.5f;
         float hl = length * 0.5f;
 
-        var mesh = new Mesh { name = "BoatHullMaskQuad" };
+        var mesh = new Mesh { name = "BoatHullStencilQuad" };
         mesh.vertices = new[]
         {
             new Vector3(-hw, 0f, -hl),
@@ -76,7 +71,6 @@ public class BoatWaterMask : MonoBehaviour
 #if UNITY_EDITOR
     void OnDrawGizmosSelected()
     {
-        // Scene viewカメラのときだけ描画し、Game viewには出さない
         if (Camera.current != SceneView.lastActiveSceneView?.camera) return;
 
         Gizmos.color = new Color(0f, 0.8f, 1f, 0.4f);
