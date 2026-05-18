@@ -52,6 +52,13 @@ Material:
     - _Water_Speed1: 0
     - _WaveAmplitude: 0
     - _WaveSpeed: 1.49
+    - _Stencil: 1
+    - _StencilComp: 6
+    - _StencilPass: 0
+    - _StencilFail: 0
+    - _StencilZFail: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 0
     m_Colors:
     - _UV1: {r: 30, g: 30, b: 0, a: 0}
     - _UV2: {r: 20, g: 20, b: 0, a: 0}
